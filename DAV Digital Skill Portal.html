@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAV Digital Skill Portal | Advanced HTML Master Project</title>
+</head>
+<body>
+    <h1><em>DAV Digital Skill Portal</em></h1><br>
+    <table border="2">
+        <caption> Student Academic & Coding Profile Summary </caption>
+        <thead>
+            <tr>
+                <th>Degree Course</th>
+                <th>Technical Skills / Languages</th>
+                <th>Current Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>BCA</td>
+            <td>C,C++,Python,JAVA,HTML,CSS,JavaScript</td>
+            <td>Ongoing</td></tr>
+        </tbody>
+        <tbody><tr>
+            <td>B.COM</td>
+            <td>Advanced Excel, Tally ERP, SQL</td>
+            <td>Ongoing</td></tr>
+        </tbody>
+        <tbody><tr>
+            <td>BA (Bachelor of Arts)</td>
+            <td>English Typing, HTML, WordPress</td>
+            <td>Ongoing</td></tr>
+        </tbody>
+    </table>
+    <form>
+        <fieldset>
+            <legend>
+                Personal info<br></legend>
+               <p><label for="name">Name:</label>
+               <input type="text" id="name" placeholder="Enter your full name" required><br></p>
+               <p><label for="email">Email:</label>
+               <input type="text" id="email" placeholder="Enter your Email" required><br></p>
+                <p><label for="age">AGE:</label>
+               <input type="number" id="age" placeholder="Enter your AGE" required><br></p>
+               <p><label for="Phone number">Phone number:</label>
+               <input type="number" id="Phone number" placeholder="Enter your Phone number" required><br></p>
+            
+        </fieldset>
+        <fieldset>
+            <legend>
+                Core Demographics<br>
+            </legend>
+            <label for="male">male</label>
+            <input type="radio" id="male" name="Gender" value="male"><br>
+             <label for="female">female</label>
+            <input type="radio" id="female" name="Gender" value="female"><br>
+             <label for="other">other</label>
+            <input type="radio" id="other" name="Gender" value="other">
+        </fieldset>
+        <fieldset>
+            <legend>Step 3: Academic & Skill Details</legend>
+            <label for="Course" > select your course: </label>
+            <select id="Course" name="Course_name" >
+            <option value="BCA">BCA</option>
+            <option value="B.COM">B.COM</option>
+            <option value="BA">BA</option></select>  <br>
+            <p>Select your Skills (You can choose more than one):</p>        
+            <input type="checkbox" id="HTML" name="skill" value="Html">
+            <label for="HTML" >Html</label><br>
+            <input type="checkbox" id="Python" name="skill" value="Python">
+            <label for="Python" >Python</label><br>
+            <input type="checkbox" id="CSS" name="skill" value="CSS">
+            <label for="CSS" >CSS</label><br>
+             <input type="checkbox" id="Cpp" name="skill" value="Cpp">
+            <label for="Cpp" >Cpp</label><br>
+            <input type="checkbox" id="Excel" name="skill" value="Excel">
+            <label for="Excel" >Excel</label><br>
+            <input type="checkbox" id="SQL" name="skill" value="SQL">
+            <label for="SQL" >SQL</label><br>
+            <input type="submit" value="Submit Profile">
+</form>
+</body>
+</html>
